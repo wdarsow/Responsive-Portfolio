@@ -8,9 +8,11 @@ a {
     color: #777777;
 }
 
+/*
 html {
     max-width: 960px;
 }
+*/ 
 
 body {
     max-width: 960px;
@@ -204,25 +206,118 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+    
     .aboutme {
         width: 100%;
+        float: left;
     }   
+
     .connect {
         width: 100%;
         float: none;
     }
+    .image1, .image2, .image3, .image4, .image5 { 
+        width: 100%;
+        float: none;
+    }
+    
+    .portfolio-container {
+        width: 45%;
+    }
+
+    header {
+        width: 75%;
+    }
+
+    .footer {
+        width: 75%;
+    }
+
+    .contactinfo {
+        right: 25%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: yellow;
+
+    .aboutme {
+        width: 100%;
+        float: none;
     }
+
+    .connect {
+        width: 50%;
+        float: left;
+    }
+
+    .image1, .image2 { 
+        width: 50%;
+        float: none;
+    }
+
+    .image3, .image4 {
+        width: 50%;
+        float: none;
+    }
+
+    .image5 {
+        width: 75%;
+    }
+
+    .contact-form {
+        width: 100%;
+
+    }
+
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: red;
+    
+    .body {
+        width: 50%;
     }
+
+    .profileimage {
+        width: 100%;
+        float: left;
+    }
+    
+    .aboutme {
+        width: 50%;
+        float: left;
+        height: 25%;
+    }
+
+    .connect {
+        width: 25%;
+        float: none;
+    }
+
+    .image1, .image2, .image3, .image4, .image5 { 
+        width: 100%;
+        float: none;
+    }
+
+    header {
+        width: 40%;
+    }
+
+    .footer {
+        width: 40%;
+    }
+
+    .myname {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%; 
+    }
+
+    header {
+        position: fixed;
+    }
+
 }
 
 /*
