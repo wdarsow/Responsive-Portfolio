@@ -172,7 +172,7 @@ input[type=submit] {
 .image3 {
     float:left;
     margin-right: 200px;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 .image4 {
@@ -183,6 +183,11 @@ input[type=submit] {
 .image5 {
     margin-left: 50px;
     position: absolute;
+}
+
+.image6 {
+    margin-left: 200px;
+    position: relative;
 }
 
 .hang {
