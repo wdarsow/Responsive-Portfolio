@@ -190,6 +190,11 @@ input[type=submit] {
     position: relative;
 }
 
+.image7 {
+    margin-left: 400px;
+    position: relative;
+}
+
 .hang {
     width: 95px;
     background-color: #4aaaa5;
